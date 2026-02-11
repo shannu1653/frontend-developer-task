@@ -59,3 +59,27 @@
   from {opacity:0; transform:scale(.9)}
   to {opacity:1; transform:scale(1)}
 }
+.error-box {
+  background: #ffe5e5;
+  color: #d8000c;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.success-box {
+  background: #e6ffed;
+  color: #2e7d32;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.password-hint {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 12px;
+  color: #777;
+}
