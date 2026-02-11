@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://frontend-developer-task-omcr.onrender.com/api/",
+  baseURL:import.meta.env.VITE_API_URL,
+
 });
 
 api.interceptors.request.use((config) => {
